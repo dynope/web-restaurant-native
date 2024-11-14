@@ -36,7 +36,7 @@ AOS.init({
             'responsive': {
                 '900':{
                     'edgePadding': 30,
-                    'items': 2
+                    'items': 2,
                 }
             }         
            });
