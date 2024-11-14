@@ -17,7 +17,7 @@ AOS.init({
         circleText.style.transform = "rotate("+window.pageYOffset+"deg)";
     });
 
-    var tinslider = function() {
+    var tinyslider = function() {
       var el = document.querySelectorAll('.testimonial-slider')
 
       if ( el.length > 0 ) {
@@ -35,13 +35,13 @@ AOS.init({
             'controls': false,
             'responsive': {
                 '900':{
-                    'edgePadding'
+                    'edgePadding': 30,
+                    'items': 2
                 }
             }         
            });
       }
     }
-    tinslider(){
+    tinyslider() 
 
-    }
 })();
